@@ -1,0 +1,19 @@
+{
+  "name": "next-zowe-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zowe/core-for-zowe-sdk": "^6.31.0",
+    "@zowe/imperative": "^5.0.0-next.202104142114",
+    "@zowe/zos-jobs-for-zowe-sdk": "^7.0.0-next.202104162205",
+    "@zowe/zosmf-for-zowe-sdk": "^6.31.0"
+  }
+}
