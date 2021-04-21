@@ -1,5 +1,5 @@
 {
-  "name": "next-zowe-sdk",
+  "name": "hello-zowe-sdk",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,13 @@
   "license": "ISC",
   "dependencies": {
     "@zowe/core-for-zowe-sdk": "^6.31.0",
-    "@zowe/imperative": "^5.0.0-next.202104142114",
-    "@zowe/zos-jobs-for-zowe-sdk": "^7.0.0-next.202104162205",
-    "@zowe/zosmf-for-zowe-sdk": "^6.31.0"
+    "@zowe/imperative": "^4.13.0",
+    "@zowe/zos-jobs-for-zowe-sdk": "^6.31.0",
+    "@zowe/zosmf-for-zowe-sdk": "^6.31.0",
+    "keytar": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
   }
 }
