@@ -13,7 +13,7 @@
   "dependencies": {
     "@zowe/core-for-zowe-sdk": "^6.31.0",
     "@zowe/imperative": "^4.13.0",
-    "@zowe/zos-jobs-for-zowe-sdk": "^6.31.0",
+    "@zowe/zos-jobs-for-zowe-sdk": "^6.40.8",
     "@zowe/zosmf-for-zowe-sdk": "^6.31.0",
     "keytar": "^7.6.0"
   },
